@@ -14,7 +14,7 @@
     
     // secret is used to encode and decode data which is to be stored in the database.
     app.use(require("express-session")({
-      secret:" Rohan is the best", 
+      secret:" Coding is fun", 
       resave: false,
       saveUninitialized:false
     }));
